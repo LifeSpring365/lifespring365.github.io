@@ -1,0 +1,39 @@
+site_name: LifeSpring365
+site_description: Growing in God's Word every day.
+site_url: https://lifespring365.github.io
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+nav:
+  - 首页: index.md
+  - 圣经查经:
+      - 约书亚记:
+          - 第一章: joshua/chapter-01.md
+          - 全书总结: joshua/summary.md
+      - 士师记:
+          - 第五章·底波拉之歌: judges/chapter-05.md
+          - 基甸三百人: judges/gideon-300.md
+  - 关于: about.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
