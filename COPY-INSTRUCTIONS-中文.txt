@@ -1,0 +1,22 @@
+LifeSpring365 模板复制说明
+
+一、解压 ZIP 文件。
+二、打开解压后的 LifeSpring365-MkDocs-Template 文件夹。
+三、全选里面的内容，包括：
+    .github
+    docs
+    mkdocs.yml
+    requirements.txt
+    README.md
+四、复制到你的本地仓库 lifespring365.github.io 文件夹。
+五、出现“替换或跳过文件”时，选择“替换目标中的文件”。
+六、删除仓库根目录原来的 index.html（不是 docs/index.md）。
+七、回到 GitHub Desktop：
+    Summary 填写：Install MkDocs Material template
+    点击 Commit to main
+    再点击 Push origin
+八、进入 GitHub 网页：
+    Settings → Pages
+    Source 改成 GitHub Actions
+九、进入 Actions 标签，等待部署出现绿色对勾。
+十、打开 https://lifespring365.github.io/
