@@ -1,0 +1,15 @@
+LifeSpring365 V1.0 正式版更新方法
+
+1. 下载并解压本压缩包。
+2. 打开解压后的 LifeSpring365-v1.0-update 文件夹。
+3. 复制其中的 mkdocs.yml 和 docs 文件夹。
+4. 粘贴到本地仓库：F:\LifeSpring365\lifespring365.github.io
+5. Windows 提示文件冲突时，选择“替换目标中的文件”。
+6. 回到 GitHub Desktop。
+7. Summary 填写：Release LifeSpring365 v1.0
+8. 点击 Commit to main。
+9. 点击 Push origin。
+10. 等待约 1–2 分钟。
+11. 打开 https://lifespring365.github.io/ 并按 Ctrl + F5。
+
+本次更新不会删除原有的约书亚记、士师记、讲章、灵修和诗歌页面。
