@@ -3,7 +3,11 @@ hide:
   - navigation
   - toc
 ---
+## 图标测试
 
+:material-heart:  
+:material-book-open-page-variant:  
+:octicons-arrow-right-24:
 <div class="hero" markdown>
 
 # LifeSpring365
