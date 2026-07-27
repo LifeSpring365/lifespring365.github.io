@@ -56,70 +56,35 @@
   background: rgba(33,133,166,.08);
   border-radius: .25rem;
 }
-/* 首页紧凑版 Hero */
-.hero {
-  margin: 0 0 1.5rem;
-  padding: 2.25rem 1.5rem;
+/* 首页简洁内容总览 */
+.home-overview {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin-top: 0.8rem;
+}
+
+.home-overview > ul {
+  display: contents;
+}
+
+.home-overview > ul > li {
+  min-height: 7rem;
+  padding: 1.1rem;
   text-align: center;
-  border-radius: 1rem;
-  background: linear-gradient(
-    135deg,
-    rgba(0, 150, 136, 0.12),
-    rgba(3, 169, 244, 0.06)
-  );
 }
 
-.hero h1 {
-  margin: 0 0 0.25rem;
-  font-size: clamp(2.4rem, 7vw, 4.3rem);
-  line-height: 1.05;
-  font-weight: 500;
+.home-overview > ul > li > p:first-of-type {
+  margin-top: 0.65rem;
 }
 
-.hero h2 {
-  margin: 0.45rem 0;
-  font-size: 1.45rem;
-  font-weight: 500;
-}
-
-.hero > p {
-  margin: 0.35rem 0;
-}
-
-.hero-verse {
-  margin-top: 0.65rem !important;
-  white-space: nowrap;
-  font-size: 1rem;
-}
-
-/* 缩小首页区块间距 */
-.md-content__inner {
-  padding-top: 1rem;
-}
-
-.md-content__inner > h2 {
-  margin-top: 1.4rem;
-  margin-bottom: 1rem;
-}
-
-.grid.cards {
-  margin-top: 0.5rem;
-}
-
-.home-footer {
-  margin-top: 2rem;
-  padding: 1.5rem 1rem;
-  text-align: center;
-  border-top: 1px solid var(--md-default-fg-color--lightest);
-}
-
-/* 屏幕较小时允许经文自动换行，避免溢出 */
-@media screen and (max-width: 700px) {
-  .hero {
-    padding: 1.75rem 1rem;
+@media screen and (max-width: 900px) {
+  .home-overview {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
 
-  .hero-verse {
-    white-space: normal;
+@media screen and (max-width: 600px) {
+  .home-overview {
+    grid-template-columns: 1fr;
   }
 }
