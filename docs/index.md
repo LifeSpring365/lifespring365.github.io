@@ -5,16 +5,22 @@ hide:
 ---
 
 <div class="hero" markdown>
+
 # LifeSpring365
 
 ## 生命之泉
 
 **Growing in God's Word every day.**
 
-> “因为在你那里有生命的源头；  
-> 在你的光中，我们必得见光。”
->
-> ——诗篇 36:9
+<div class="verse">
+
+“因为在你那里有生命的源头；
+
+在你的光中，我们必得见光。”
+
+——诗篇36:9
+
+</div>
 
 [📖 开始查经](bible-study.md){ .md-button .md-button--primary }
 [🌿 每日灵修](devotions/index.md){ .md-button }
