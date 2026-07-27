@@ -115,14 +115,14 @@ nav:
       - 栏目介绍: devotions/index.md
   - 📚 神学专题:
       - 栏目介绍: theology/index.md
-      - 新酒启示:
-          - 系列介绍: theology/new-wine/index.md
-          - 上帝视角下的爱情、恋爱与婚姻: theology/new-wine/love-marriage.md
-      - 内心与肉体情欲的争战: theology/inner-battle.md
   - 📝 学习札记:
       - 栏目介绍: learning/index.md
       - 📚 读书笔记: learning/books/index.md
-      - 🎥 视频笔记: learning/videos/index.md
+      - 🎥 视频笔记:
+          - 视频目录: learning/videos/index.md
+          - Kathryn Krick:
+              - 讲员介绍: learning/videos/kathryn-krick/index.md
+              - 新酒启示：上帝视角下的爱情、恋爱与婚姻: learning/videos/kathryn-krick/new-wine-love-marriage.md
       - 🎙️ 讲座整理: learning/lectures/index.md
       - 📖 神学摘录: learning/theology/index.md
       - 💭 灵感记录: learning/ideas/index.md
